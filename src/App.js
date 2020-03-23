@@ -1,6 +1,7 @@
 import React from 'react';
 import FunctionalComponent from './components/functional/FunctionalComponent';
 import ClassComponent from './components/classes/ClassComponent';
+import CanvasComponent from './components/canvas/CanvasComponent';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
     <FunctionalComponent />
     <ClassComponent />
+    <CanvasComponent/>
     </div>
   );
 }
